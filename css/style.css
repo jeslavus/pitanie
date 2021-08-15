@@ -338,7 +338,7 @@ ul {
 	}
 
 	.box_footer {
-		width: 85%;
+		width: 85vw;
 	}
 
 	.invis {
@@ -461,4 +461,35 @@ ul {
 		margin: 12px 25px;
 		font-size: 14px;
 	}
+}
+
+@media (max-width: 480px) {
+	
+	.header {
+		width: 480px;
+		padding-right: 50px;
+	}
+
+	.products_list {
+		width: 400px;
+	}
+
+	.bag {
+		width: 350px;
+		height: 300px;
+	}
+
+	.standarts_item {
+		width: 400px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.invis {
+		width: 400px;
+		margin-left: 200px;
+		font-size: 10px;
+	}
+
 }
