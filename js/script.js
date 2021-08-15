@@ -18,17 +18,3 @@ dot.forEach((e, i) => {
 });
 
 
-for (var i=0; i<dot.length; i++) {
-    dot[i].onchange = function() {
-      if (dot[0].style.backgroundColor = 'orange') {
-        dot[1].style.backgroundColor = 'white';
-        dot[2].style.backgroundColor = 'white';
-      } else if (dot[1].style.backgroundColor = 'orange') {
-        dot[0].style.backgroundColor = 'white';
-        dot[2].style.backgroundColor = 'white';
-      } else if (dot[2].style.backgroundColor = 'orange') {
-        dot[0].style.backgroundColor = 'white';
-        dot[1].style.backgroundColor = 'white';
-      }
-    };
-  }
